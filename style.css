@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#h-menu{
+  height: 100px;
+  width: 100%;
+  background-color: beige;
+  color: black;
+  z-index: 1;
+  padding: opx, 100px;
+  position: fixed;
+  line-height: 100px;
+
+}
+.m1{
+
+  display: flex;
+  float: right;
+  font-size: 20px;
+}
+.m1 li{
+  padding: 20px;
+  text-decoration: none;
+}
+
+#main{
+  border: 1px solid red;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  
+}
+.ek{
+  border: 5px solid yellow;
+  width: 40%;
+  height: 100%;
+
+}
+
+.bk {
+  border: 5px solid yellow;
+  width: 60%;
+  height: 100%;
+
+}
+#picture{
+  height: 40vh;
+  width: 100%;
+  background-color: #ffc100;
+  margin-top: 100PX;
+}
+
+#picture img {
+  float: right;
+  height: 100%;
+  width: 60%;
+  right: 0%;
+}
+
+#picture .text{
+  float: left;
+  width: 40%;
+  height: 100%;
+  left: o;
+}
+
+#menu1{
+  display: flex;
+  float: left;
+  color: grey;
+  height: 50vh;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+#menu1 li{
+  padding: 20px;
+  font-size: 20px;
+  color: blueviolet;
+}
+#happymeal{
+  height: 80vh;
+  width: 100%;
+  background-image: url("https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x-1024x643.jpg");
+  display: flex;
+  
+}
+.hi{
+  padding: 20px;
+  overflow-x: auto;
+}
+
+#toys{
+  height: 80vh;
+  width: 100%;
+  background-color: #ffc100;
+  
+
+}
+.tim{
+  display: flex;
+  padding: 20px;
+  border: 20px;
+  gap: 10px;
+  float: right;
+  justify-content: calc(30%);
+}
+
+
+#city{
+  height: 60vh;
+  width: 100%;
+}
+#delivery{
+  height: 100vh;
+  width: 100%;
+}
+
+#news{
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x.jpg");
+}
+.container{
+  width: 90%;
+  max-height: 80%;
+  margin: 0, auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.left{
+  width: 50%;
+  height: 600px;
+  background: url("https://mcdindia.com/wp-content/uploads/2020/02/2.10-maharaja-mac-veg.png") no-repeat  center / cover;
+  border-radius: 8px;
+}
+.right{
+  width: 50%;
+  flex-direction: ;
+}
+
+.insta{
+  height: 600px;
+  width: 600px;
+  background-color: #47bbad;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.ssc{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+
+}
+
+#footer{
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+}
